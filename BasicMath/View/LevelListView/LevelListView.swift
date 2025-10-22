@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LevelListView: View {
     
-    @ObservedObject var vm = LevelListViewModel() /// ¿Por qué las instancias de ViewModel se crean como "@ObservedObject"?
+    @StateObject var vm = LevelListViewModel()
     
     var body: some View {
         VStack {
