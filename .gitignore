@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Xcode user data y estados locales
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Builds locales
+DerivedData/
+
+# Swift Package Manager
+.build/
+!Package.resolved   # mantener fijo el grafo de dependencias
+
+# CocoaPods (habilita si usas Pods)
+# Pods/
+Podfile.lock
+
+# Carthage (habilita si usas Carthage)
+# Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/test_output/
+
+# Productos binarios
+*.ipa
+*.dSYM
+*.dSYM.zip
