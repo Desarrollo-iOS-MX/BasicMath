@@ -2,7 +2,7 @@
 //  BasicMathApp.swift
 //  BasicMath
 //
-//  Created by José Miguel Torres Chávez Nava on 22/10/25.
+//  Created by José Miguel Torres Chávez Nava on 07/08/25.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct BasicMathApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LevelListView()
         }
     }
 }

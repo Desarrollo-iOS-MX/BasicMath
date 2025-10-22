@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		43D77D972EA8F8DD0098481D /* BasicMath */ = {
+		43B2BCB32EA90C140025A13E /* BasicMath */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BasicMath;
 			sourceTree = "<group>";
@@ -32,7 +32,7 @@
 		43D77D8C2EA8F8DD0098481D = {
 			isa = PBXGroup;
 			children = (
-				43D77D972EA8F8DD0098481D /* BasicMath */,
+				43B2BCB32EA90C140025A13E /* BasicMath */,
 				43D77D962EA8F8DD0098481D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				43D77D972EA8F8DD0098481D /* BasicMath */,
+				43B2BCB32EA90C140025A13E /* BasicMath */,
 			);
 			name = BasicMath;
 			packageProductDependencies = (
