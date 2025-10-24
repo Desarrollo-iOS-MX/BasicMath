@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LevelListView: View {
     
-    @StateObject var vm = LevelListViewModel()
+    @State private var vm = ViewModel()
     
     var body: some View {
         VStack {
@@ -23,5 +23,5 @@ struct LevelListView: View {
 }
 
 #Preview {
-    LevelListView(vm: LevelListViewModel())
+    LevelListView()
 }
