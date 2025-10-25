@@ -9,11 +9,12 @@ import SwiftUI
 
 struct AnimalCardView: View {
     
-    let animal: ImageAI
+    let animal: Animal
     
     var body: some View {
         HStack {
-            animal.image
+            
+            Image("\(animal.animal)")
                 .resizable()
                 .frame(width: 150, height: 150)
             
@@ -29,13 +30,13 @@ struct AnimalCardView: View {
                 
                 Spacer()
                 
-                StartLessonButton(color: animal.background)
+                StartLessonButton(color: Color(dynamic: animal.color))
                     .padding()
             }
         }
         .frame(maxWidth: .infinity)
         .frame(height: 150)
-        .background(animal.background.opacity(0.7))
+        .background(Color(dynamic: animal.color))
         .clipShape(RoundedRectangle(cornerRadius: 25))
         .shadow(color: .gray, radius: 8, x: 0, y: 8)
         .padding(.horizontal)
@@ -44,5 +45,5 @@ struct AnimalCardView: View {
 }
 
 #Preview {
-    AnimalCardView(animal: ImageAI(Image("Cow"), .blue))
+    AnimalCardView(animal: Animal(id: 0, animal: "Cow", color: "Purple"))
 }

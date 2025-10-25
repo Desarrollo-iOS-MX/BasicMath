@@ -1,37 +1,46 @@
 [
     {
+        "id": 0,
         "animal": "Cow",
         "color": "blue"
     },
     {
+        "id": 1,
         "animal": "Dog",
         "color": "yellow"
     },
     {
+        "id": 2,
         "animal": "Lion",
         "color": "red"
     },
     {
+        "id": 3,
         "animal": "Pigeon",
-        "color": c
+        "color": "purple"
     },
     {
+        "id": 4,
         "animal": "Dolphin",
         "color": "cyan"
     },
     {
+        "id": 5,
         "animal": "Eagle",
         "color": "blue"
     },
     {
+        "id": 6,
         "animal": "Elephant",
         "color": "pink"
     },
     {
+        "id": 7,
         "animal": "Horse",
         "color": "brown"
     },
     {
+        "id": 8,
         "animal": "Crocodile",
         "color": "green"
     }

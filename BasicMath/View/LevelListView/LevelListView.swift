@@ -14,12 +14,13 @@ struct LevelListView: View {
     var body: some View {
         VStack {
             ScrollView(showsIndicators: false) {
-                ForEach(vm.images) { animal in
+                ForEach(vm.animals) { animal in
                     AnimalCardView(animal: animal)
                 }
             }
         }
     }
+    
 }
 
 #Preview {
