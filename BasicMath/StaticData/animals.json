@@ -1,0 +1,38 @@
+[
+    {
+        "animal": "Cow",
+        "color": "blue"
+    },
+    {
+        "animal": "Dog",
+        "color": "yellow"
+    },
+    {
+        "animal": "Lion",
+        "color": "red"
+    },
+    {
+        "animal": "Pigeon",
+        "color": c
+    },
+    {
+        "animal": "Dolphin",
+        "color": "cyan"
+    },
+    {
+        "animal": "Eagle",
+        "color": "blue"
+    },
+    {
+        "animal": "Elephant",
+        "color": "pink"
+    },
+    {
+        "animal": "Horse",
+        "color": "brown"
+    },
+    {
+        "animal": "Crocodile",
+        "color": "green"
+    }
+]
