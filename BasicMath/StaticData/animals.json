@@ -2,46 +2,72 @@
     {
         "id": 0,
         "animal": "Cow",
-        "color": "blue"
+        "color": "blue",
+        "number": 1,
+        "type": "Sumas",
+        "timeLimit": 30
     },
     {
         "id": 1,
         "animal": "Dog",
-        "color": "yellow"
+        "color": "yellow",
+        "number": 2,
+        "type": "Sumas"
     },
     {
         "id": 2,
         "animal": "Lion",
-        "color": "red"
+        "color": "red",
+        "number": 3,
+        "type": "Restas",
+        "timeLimit": 30
     },
     {
         "id": 3,
         "animal": "Pigeon",
-        "color": "purple"
+        "color": "purple",
+        "number": 4,
+        "type": "Multiplicaciones",
+        "timeLimit": 30
     },
     {
         "id": 4,
         "animal": "Dolphin",
-        "color": "cyan"
+        "color": "cyan",
+        "number": 5,
+        "type": "Divisiones exactas",
+        "timeLimit": 30
     },
     {
         "id": 5,
         "animal": "Eagle",
-        "color": "blue"
+        "color": "blue",
+        "number": 6,
+        "type": "Raíces exactas",
+        "timeLimit": 30
     },
     {
         "id": 6,
         "animal": "Elephant",
-        "color": "pink"
+        "color": "pink",
+        "number": 7,
+        "type": "Sumas con decimales",
+        "timeLimit": 45
     },
     {
         "id": 7,
         "animal": "Horse",
-        "color": "brown"
+        "color": "brown",
+        "number": 8,
+        "type": "Restas con decimales",
+        "timeLimit": 45
     },
     {
         "id": 8,
         "animal": "Crocodile",
-        "color": "green"
+        "color": "green",
+        "number": 9,
+        "type": "Multiplicaciones",
+        "timeLimit": 45
     }
 ]

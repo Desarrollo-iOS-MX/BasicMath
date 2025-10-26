@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AnimalCardView: View {
     
-    let animal: Animal
+    let animal: Level
     
     var body: some View {
         HStack {
@@ -45,5 +45,5 @@ struct AnimalCardView: View {
 }
 
 #Preview {
-    AnimalCardView(animal: Animal(id: 0, animal: "Cow", color: "Purple"))
+    AnimalCardView(animal: Level(id: 0, animal: "Cow", color: "Purple", number: 1, type: "Sumas", timeLimit: 30))
 }
