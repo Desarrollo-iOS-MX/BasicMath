@@ -15,7 +15,7 @@ struct LevelListView: View {
         VStack {
             ScrollView(showsIndicators: false) {
                 ForEach(vm.animals) { animal in
-                    AnimalCardView(animal: animal)
+                    LevelCardView(level: animal)
                 }
             }
         }

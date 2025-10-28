@@ -15,4 +15,11 @@ struct Level: Codable, Identifiable {
     var number: Int // Número de nivel que representa
     var type: String // Tipo de nivel (sumas, restas, multiplicación, división, raíces)
     var timeLimit: Int // Tiempo límite del nivel
+    var targetScore: Int // La puntuación mínima para desbloquear la recompensa.
 }
+
+
+// Variables modificadas por el usuario:
+
+// var isUnlocked: Bool // Nos dice si la recompensa está desbloqueada o no.
+// var isLastLevel: Bool // Nos dice si es el nivel más alto al que ha llegado el usuario.

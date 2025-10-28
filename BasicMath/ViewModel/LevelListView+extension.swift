@@ -11,7 +11,7 @@ extension LevelListView {
     
     @Observable
     class ViewModel {
-        let animals = Bundle.main.decode([Level].self, from: "animals.json")
+        let animals = Bundle.main.decode([Level].self, from: "levels.json")
     }
     
 }

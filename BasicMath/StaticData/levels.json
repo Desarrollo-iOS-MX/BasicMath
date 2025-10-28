@@ -4,70 +4,80 @@
         "animal": "Cow",
         "color": "blue",
         "number": 1,
-        "type": "Sumas",
-        "timeLimit": 30
+        "type": "Addition",
+        "timeLimit": 30,
+        "targetScore": 100
     },
     {
         "id": 1,
         "animal": "Dog",
         "color": "yellow",
         "number": 2,
-        "type": "Sumas"
+        "type": "Subtraction",
+        "timeLimit": 30,
+        "targetScore": 100
     },
     {
         "id": 2,
         "animal": "Lion",
         "color": "red",
         "number": 3,
-        "type": "Restas",
-        "timeLimit": 30
+        "type": "Multiplication",
+        "timeLimit": 30,
+        "targetScore": 100
     },
     {
         "id": 3,
         "animal": "Pigeon",
         "color": "purple",
         "number": 4,
-        "type": "Multiplicaciones",
-        "timeLimit": 30
+        "type": "Division",
+        "timeLimit": 30,
+        "targetScore": 100
     },
     {
         "id": 4,
         "animal": "Dolphin",
         "color": "cyan",
         "number": 5,
-        "type": "Divisiones exactas",
-        "timeLimit": 30
+        "type": "Addition",
+        "timeLimit": 30,
+        "targetScore": 100
     },
     {
         "id": 5,
         "animal": "Eagle",
         "color": "blue",
         "number": 6,
-        "type": "Raíces exactas",
-        "timeLimit": 30
+        "type": "Subtaction",
+        "timeLimit": 30,
+        "targetScore": 100
     },
     {
         "id": 6,
         "animal": "Elephant",
         "color": "pink",
         "number": 7,
-        "type": "Sumas con decimales",
-        "timeLimit": 45
+        "type": "Multiplication",
+        "timeLimit": 45,
+        "targetScore": 100
     },
     {
         "id": 7,
         "animal": "Horse",
         "color": "brown",
         "number": 8,
-        "type": "Restas con decimales",
-        "timeLimit": 45
+        "type": "Division",
+        "timeLimit": 45,
+        "targetScore": 100
     },
     {
         "id": 8,
         "animal": "Crocodile",
         "color": "green",
         "number": 9,
-        "type": "Multiplicaciones",
-        "timeLimit": 45
+        "type": "Roots",
+        "timeLimit": 45,
+        "targetScore": 100
     }
 ]
