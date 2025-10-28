@@ -16,6 +16,7 @@ struct Level: Codable, Identifiable {
     var type: String // Tipo de nivel (sumas, restas, multiplicación, división, raíces)
     var timeLimit: Int // Tiempo límite del nivel
     var targetScore: Int // La puntuación mínima para desbloquear la recompensa.
+    var info: String // Un dato curioso acerca del animal de recompensa.
 }
 
 

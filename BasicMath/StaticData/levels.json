@@ -6,7 +6,8 @@
         "number": 1,
         "type": "Addition",
         "timeLimit": 30,
-        "targetScore": 100
+        "targetScore": 100,
+        "info": "This animal has 4 stomachs."
     },
     {
         "id": 1,
@@ -15,7 +16,8 @@
         "number": 2,
         "type": "Subtraction",
         "timeLimit": 30,
-        "targetScore": 100
+        "targetScore": 100,
+        "info": "Smells 100,000× better than humans."
     },
     {
         "id": 2,
@@ -24,7 +26,8 @@
         "number": 3,
         "type": "Multiplication",
         "timeLimit": 30,
-        "targetScore": 100
+        "targetScore": 100,
+        "info": "Roar heard 8 km away."
     },
     {
         "id": 3,
@@ -33,7 +36,8 @@
         "number": 4,
         "type": "Division",
         "timeLimit": 30,
-        "targetScore": 100
+        "targetScore": 100,
+        "info": "Recognizes itself in mirrors."
     },
     {
         "id": 4,
@@ -42,16 +46,18 @@
         "number": 5,
         "type": "Addition",
         "timeLimit": 30,
-        "targetScore": 100
+        "targetScore": 100,
+        "info": "Uses names with whistles."
     },
     {
         "id": 5,
         "animal": "Eagle",
         "color": "blue",
         "number": 6,
-        "type": "Subtaction",
+        "type": "Subtraction",
         "timeLimit": 30,
-        "targetScore": 100
+        "targetScore": 100,
+        "info": "Eyesight up to 8× stronger."
     },
     {
         "id": 6,
@@ -60,7 +66,8 @@
         "number": 7,
         "type": "Multiplication",
         "timeLimit": 45,
-        "targetScore": 100
+        "targetScore": 100,
+        "info": "Mourns its dead."
     },
     {
         "id": 7,
@@ -69,7 +76,8 @@
         "number": 8,
         "type": "Division",
         "timeLimit": 45,
-        "targetScore": 100
+        "targetScore": 100,
+        "info": "Sleeps standing up."
     },
     {
         "id": 8,
@@ -78,6 +86,7 @@
         "number": 9,
         "type": "Roots",
         "timeLimit": 45,
-        "targetScore": 100
+        "targetScore": 100,
+        "info": "Holds breath 1 hour."
     }
 ]

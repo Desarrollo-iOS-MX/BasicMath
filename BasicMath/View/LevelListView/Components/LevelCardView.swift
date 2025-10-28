@@ -10,10 +10,11 @@ import SwiftUI
 struct LevelCardView: View {
     
     let level: Level
+    @Binding var isSelected: Bool
     
     var body: some View {
         // Toda la tarjeta se construye en un HStack
-        HStack(spacing: 0) {
+        HStack(spacing: 10) {
             // Información de la tarjeta
             VStack(alignment: .leading) {
                 // MARK: Datos fijos del nivel
@@ -35,6 +36,7 @@ struct LevelCardView: View {
                             .font(.body)
                             .fontWeight(.medium)
                     }
+                    .isHidden(!isSelected, shouldRemove: true)
                     
                     HStack {
                         Image(systemName: "medal.star.fill")
@@ -45,6 +47,7 @@ struct LevelCardView: View {
                             .font(.body)
                             .fontWeight(.medium)
                     }
+                    .isHidden(!isSelected, shouldRemove: true)
                     
                     // Este renglón dice la recompensa, o "coleccionado" si es que ya se obtuvo.
                     HStack {
@@ -60,9 +63,10 @@ struct LevelCardView: View {
                 .padding(.bottom)
                 
                 // Información interesante del animal
-                Text("This animal has 4 stomachs.")
+                Text("\(level.info)")
                     .font(.footnote)
                     .fontWeight(.light)
+                    .isHidden(!isSelected, shouldRemove: true)
             }
             .padding(.leading, 8)
             
@@ -70,7 +74,7 @@ struct LevelCardView: View {
             VStack(spacing: 0) {
                 Image("\(level.animal)")
                     .resizable()
-                    .frame(width: 130, height: 130)
+                    .frame(width: isSelected ? 130 : 120, height: isSelected ? 130 : 120)
                     .padding(.leading, 30)
                     .padding(.bottom, -5)
                 
@@ -88,20 +92,20 @@ struct LevelCardView: View {
                         .clipShape(RoundedRectangle(cornerRadius: 15))
                         
                 }
+                .isHidden(!isSelected, shouldRemove: true)
                 
             }
             .frame(width: 150)
         }
         .frame(maxWidth: .infinity)
-        .frame(height: 250)
+        .frame(height: isSelected ? 230 : 120)
         .background(Color(dynamic: level.color).opacity(0.5))
         .clipShape(RoundedRectangle(cornerRadius: 25))
         .shadow(color: .gray, radius: 8, x: 0, y: 8)
         .padding(.horizontal)
-        .padding(.bottom, 10)
     }
 }
 
 #Preview {
-    LevelCardView(level: Level(id: 0, animal: "Cow", color: "Purple", number: 1, type: "Sumas", timeLimit: 30, targetScore: 100))
+    LevelCardView(level: Level(id: 0, animal: "Cow", color: "Purple", number: 1, type: "Sumas", timeLimit: 30, targetScore: 100, info: "This animal has 4 stomachs."), isSelected: .constant(false))
 }

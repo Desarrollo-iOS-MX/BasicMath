@@ -10,12 +10,19 @@ import SwiftUI
 struct LevelListView: View {
     
     @State private var vm = ViewModel()
+    @State var isSelected: Bool = false
     
     var body: some View {
         VStack {
             ScrollView(showsIndicators: false) {
-                ForEach(vm.animals) { animal in
-                    LevelCardView(level: animal)
+                ForEach(vm.levels) { level in
+                    LevelCardView(
+                        level: level,
+                        isSelected: $isSelected
+                    )
+                    .onTapGesture {
+                        isSelected.toggle()
+                    }
                 }
             }
         }
