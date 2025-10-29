@@ -80,7 +80,7 @@ struct LevelCardView: View {
                 
                 
                 Button {
-                    
+                    print("Iniciar lección...")
                 } label: {
                     Text("Practice")
                         .font(.title2)
@@ -103,6 +103,10 @@ struct LevelCardView: View {
         .clipShape(RoundedRectangle(cornerRadius: 25))
         .shadow(color: .gray, radius: 8, x: 0, y: 8)
         .padding(.horizontal)
+        .contentShape(Rectangle()) // Hace toda la card tocable.
+        .onTapGesture {
+            isSelected.toggle()
+        }
     }
 }
 
