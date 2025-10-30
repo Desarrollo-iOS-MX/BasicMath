@@ -5,7 +5,7 @@
 //  Created by José Miguel Torres Chávez Nava on 23/10/25.
 //
 
-import SwiftUI
+import Foundation
 
 extension LevelListView {
     

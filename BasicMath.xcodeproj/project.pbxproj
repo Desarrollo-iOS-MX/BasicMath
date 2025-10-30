@@ -10,9 +10,33 @@
 		43D77D952EA8F8DD0098481D /* BasicMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		43DEFC022EB320A300837339 /* Exceptions for "BasicMath" folder in "BasicMath" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				StaticData/level1Exercises.json,
+			);
+			target = 43D77D942EA8F8DD0098481D /* BasicMath */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		43DEFC032EB320A300837339 /* Exceptions for "BasicMath" folder in "Compile Sources" phase from "BasicMath" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 43D77D912EA8F8DD0098481D /* Sources */;
+			membershipExceptions = (
+				StaticData/level1Exercises.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		43B2BCB32EA90C140025A13E /* BasicMath */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				43DEFC022EB320A300837339 /* Exceptions for "BasicMath" folder in "BasicMath" target */,
+				43DEFC032EB320A300837339 /* Exceptions for "BasicMath" folder in "Compile Sources" phase from "BasicMath" target */,
+			);
 			path = BasicMath;
 			sourceTree = "<group>";
 		};

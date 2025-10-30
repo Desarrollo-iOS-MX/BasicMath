@@ -1,0 +1,53 @@
+[
+  {
+    "operation": [27, 58],
+    "answers": [95, 86, 85, 75, 84],
+    "correctAnswer": 85
+  },
+  {
+    "operation": [43, 26],
+    "answers": [79, 70, 59, 68, 69],
+    "correctAnswer": 69
+  },
+  {
+    "operation": [91, 14],
+    "answers": [95, 104, 106, 115, 105],
+    "correctAnswer": 105
+  },
+  {
+    "operation": [36, 47],
+    "answers": [84, 73, 83, 82, 93],
+    "correctAnswer": 83
+  },
+  {
+    "operation": [62, 28],
+    "answers": [100, 90, 89, 80, 91],
+    "correctAnswer": 90
+  },
+  {
+    "operation": [55, 39],
+    "answers": [94, 84, 95, 104, 93],
+    "correctAnswer": 94
+  },
+  {
+    "operation": [77, 18],
+    "answers": [85, 96, 95, 105, 94],
+    "correctAnswer": 95
+  },
+  {
+    "operation": [72, 16],
+    "answers": [78, 89, 88, 98, 87],
+    "correctAnswer": 88
+  },
+  {
+    "operation": [59, 25],
+    "answers": [84, 85, 83, 74, 94],
+    "correctAnswer": 84
+  },
+  {
+    "operation": [88, 10],
+    "answers": [88, 98, 97, 99, 108],
+    "correctAnswer": 98
+  }
+]
+
